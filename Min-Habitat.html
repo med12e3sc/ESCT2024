@@ -1,11 +1,80 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Projet ministère de l'habitat </title>
+    <title>Gestion d'eau et irrigation intelligente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>inscrivez vous et déposer votre dossier</h1>
+    <header>
+        <h1>Gestion d'eau et d'irrigation intelligente</h1>
+    </header>
+    <div class="container">
+        <p>Bienvenue sur l'application de gestion d'eau et d'irrigation intelligente. Sélectionnez une option ci-dessous :</p>
+        <button onclick="calculateBestPractices()">Calcul des meilleures pratiques d'irrigation</button>
+        <button onclick="storeWeatherData()">Stockage des données météorologiques</button>
+    </div>
+    <footer class="footer">
+        © 2024 Application d'Irrigation Intelligente
+    </footer>
+
+    <script>
+        function calculateBestPractices() {
+            alert("Calcul des meilleures pratiques d'irrigation en cours...");
+            // Ajoutez votre logique ici
+        }
+
+        function storeWeatherData() {
+            alert("Stockage des données météorologiques...");
+            // Ajoutez votre logique ici
+        }
+    </script>
 </body>
 </html>
